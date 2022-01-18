@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, set, remove, update, onValue, child, get, push, onChildRemoved, onChildAdded } from "firebase/database";
 
 const firebaseConfig = {
- 
+ //Your config.
 };
 
 const app = initializeApp(firebaseConfig);
