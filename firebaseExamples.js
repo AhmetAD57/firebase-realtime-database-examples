@@ -2,12 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, set, remove, update, onValue, child, get, push, onChildRemoved, onChildAdded } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA7ZxfhKrgEeLG7onANYxRx1ZMduvBv1gA",
-  authDomain: "react-blog-app-29ca9.firebaseapp.com",
-  projectId: "react-blog-app-29ca9",
-  storageBucket: "react-blog-app-29ca9.appspot.com",
-  messagingSenderId: "48301207202",
-  appId: "1:48301207202:web:4920c6fe350a21ad6331fb"
+ 
 };
 
 const app = initializeApp(firebaseConfig);
