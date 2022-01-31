@@ -2,13 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, set, push, update, remove, onValue, get, child, onChildRemoved, onChildAdded } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAfNMp6VpErSqqPAinvlbu8ubhwfOEFXvE",
-  authDomain: "crucial-study-331722.firebaseapp.com",
-  databaseURL: "https://crucial-study-331722-default-rtdb.firebaseio.com",
-  projectId: "crucial-study-331722",
-  storageBucket: "crucial-study-331722.appspot.com",
-  messagingSenderId: "492721038482",
-  appId: "1:492721038482:web:18b50a085acfec8533324b",
+  // Your Firebase Config
 };
 
 //Database initialization
