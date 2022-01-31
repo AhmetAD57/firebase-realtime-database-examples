@@ -1,0 +1,17 @@
+{
+  "name": "firebase-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon firebase-examples.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.6.5",
+    "nodemon": "^2.0.15"
+  }
+}
